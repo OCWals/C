@@ -3,7 +3,7 @@
 
 int main()
 {
-    printf("Quel estvotre age :? ");
+    printf("Quel est votre age :? ");
 
     int age = 0;
     scanf("%d", &age);
@@ -12,11 +12,11 @@ int main()
 
     if (age < 18)
     {
-        printf("n'êtes pas majeur.");
+        printf("n'êtes pas majeur... :/");
     }
     else
     {
-        printf("êtes majeur.");
+        printf("êtes majeur! =)");
     }
 
 

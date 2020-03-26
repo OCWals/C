@@ -22,7 +22,7 @@ int main(int argc, char** argv)
 
         if (players == 1)
         {
-            printf("\n\n=== Difficulté ===\n");
+            printf("\n=== Difficulté ===\n");
             printf("1. 0 - 100\n");
             printf("2. 0 - 1 000\n");
             printf("3. 0 - 10 000\n\n");
@@ -50,7 +50,7 @@ int main(int argc, char** argv)
         }
         else
         {
-            printf("(J2) Choisir un nombre mystère :? ");
+            printf("\n(J2) Choisir un nombre mystère :? ");
             scanf("%d", &nombreMystere);
         }
             printf("%d\n\n", nombreMystere);
@@ -78,10 +78,9 @@ int main(int argc, char** argv)
 
         } while (val != nombreMystere);
 
-
         printf("Jouer encore (entrer '0' pour quitter) :? ");
         scanf("%d", &again);
-
+        printf("\n");
     }
 
     return 0;
