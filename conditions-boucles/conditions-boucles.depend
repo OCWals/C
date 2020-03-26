@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585186138 source:c:\users\lord-\desktop\oc\c\conditions-boucles\main.c
+	<stdio.h>
+	<stdlib.h>
+
